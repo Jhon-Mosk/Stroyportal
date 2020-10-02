@@ -1,9 +1,41 @@
 @import "_reset";
-
-.body {
-    margin: 0 auto;
-}
+@import "_variables";
+@import "_main-nav-item";
+@import "_main-nav";
 
 .container {
     max-width: 1280px;
+    margin: 0 auto;
+    content: "";
+    clear: both;
+    
+    &_nav-style {
+        // height: 32px;
+        background-color: $lightnessGrey;
+    }
+
+    &_header-style {
+        // height: 76px;
+        background-color: $lightColor;
+    }
 }
+
+.submenu {
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+  -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  background: #FFAB51;
+}
+
+ul li:hover .submenu {
+    -webkit-transform: scaleY(1);
+      -ms-transform: scaleY(1);
+      transform: scaleY(1);
+  }
+
+ul a {
+    color: #9B4222;
+  }

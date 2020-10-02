@@ -1,5 +1,6 @@
 /* Reset
    ========================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -96,11 +97,64 @@ td, th {
   text-align: left;
 }
 
-.body {
+.main-nav-item {
+  color: #708598;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.main-nav-item__geo {
+  margin: 0 5.6px 0 2px;
+}
+
+.main-nav-item_float-left {
+  float: left;
+}
+
+.main-nav-item_float-right {
+  float: right;
+}
+
+.main-nav-item_margin {
+  margin: 0 24px;
+}
+
+.main-nav {
+  max-width: 1110px;
   margin: 0 auto;
 }
 
 .container {
   max-width: 1280px;
+  margin: 0 auto;
+  content: "";
+  clear: both;
+}
+
+.container_nav-style {
+  background-color: #FAFBFC;
+}
+
+.container_header-style {
+  background-color: #FFFFFF;
+}
+
+.submenu {
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: #FFAB51;
+}
+
+ul li:hover .submenu {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+ul a {
+  color: #9B4222;
 }
 /*# sourceMappingURL=style.css.map */
