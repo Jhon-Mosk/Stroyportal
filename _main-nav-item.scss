@@ -5,6 +5,33 @@
     line-height: 32px;
     font-weight: 400;
 
+    &__wrap {
+        position: relative;
+    }
+
+    &__submenu {
+        position: absolute;
+        top: 30px;
+        left: 800px;
+        z-index: 10;
+        -webkit-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+        -webkit-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        transform: scaleY(0);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+
+    &__wrap:hover &__submenu{        
+        -webkit-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        transform: scaleY(1);        
+      }
+
     &__geo {
         margin: 0 5.6px 0 2px;
     }
