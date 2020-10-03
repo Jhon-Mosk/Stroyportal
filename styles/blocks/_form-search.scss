@@ -1,0 +1,13 @@
+.form-search {
+
+    &__input{      
+        font-family: $main-nav-and-search; 
+        color: $formSearchPlaceholderColor;
+        border: 1px solid $BorderColor;
+        box-sizing: border-box;
+        border-radius: 4px;
+        width: 526px;
+        height: 40px;
+        padding-left: 14px;
+    }
+}
