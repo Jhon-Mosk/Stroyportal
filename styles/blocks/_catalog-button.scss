@@ -1,0 +1,15 @@
+.catalog-button {
+    height: 40px;
+    width: 116px;
+    background-color: $catalogButtonColor;
+    line-height: 40px;
+    font-family: $header-button;
+    font-weight: 600;
+    color: $dark;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &__line {
+        margin: 10px 8px 10px 16px;
+    }
+}
