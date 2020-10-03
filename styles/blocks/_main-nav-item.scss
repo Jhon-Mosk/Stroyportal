@@ -5,6 +5,11 @@
     line-height: 32px;
     font-weight: 400;
 
+    .fas {
+        margin-left: 4px;
+        vertical-align: middle;
+    }
+
     &__wrap {
         position: relative;
     }
@@ -12,7 +17,7 @@
     &__submenu {
         position: absolute;
         top: 30px;
-        left: 800px;
+        left: 1005px;
         z-index: 10;
         -webkit-transition: 0.5s ease-in-out;
         -moz-transition: 0.5s ease-in-out;
@@ -24,6 +29,7 @@
         -webkit-transform-origin: 0 0;
         -ms-transform-origin: 0 0;
         transform-origin: 0 0;
+        background-color: $lightnessGrey;
     }
 
     &__wrap:hover &__submenu{        

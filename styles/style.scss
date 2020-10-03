@@ -2,6 +2,11 @@
 @import "blocks/variables";
 @import "blocks/main-nav";
 @import "blocks/main-nav-item";
+@import "blocks/header";
+@import "blocks/catalog-button";
+@import "blocks/form-search";
+@import "blocks/list-button";
+@import "blocks/user-button";
 
 .container {
   max-width: 1280px;
@@ -10,10 +15,12 @@
   clear: both;
 
   &_nav-style {
+    // height: 32px;
     background-color: $lightnessGrey;
   }
 
   &_header-style {
-    background-color: $lightColor;
+    // height: 76px;
+    background-color: $lightColor;    
   }
 }

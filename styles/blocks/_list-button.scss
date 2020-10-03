@@ -1,0 +1,30 @@
+.list-button {
+    position: relative;
+    width: 111px;
+    height: 40px;
+    background: $lightnessGrey;
+    border: 1px solid $BorderColor;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: $header-button;
+    font-weight: 600;
+    font-size: 14px;
+    color: $dark;
+    cursor: pointer;
+
+    &__icon {
+        margin: 10px 12px 10px 16px;
+    }
+
+    &__point {
+        position: absolute;
+        top: 6px;
+        left: 26px;
+        width: 10px;
+        height: 10px;
+        background: $pointColor;
+        border: 2px solid $lightnessGrey;
+        box-sizing: border-box;
+        border-radius: 50%;
+    }
+}
