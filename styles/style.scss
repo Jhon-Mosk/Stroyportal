@@ -15,12 +15,12 @@
   clear: both;
 
   &_nav-style {
-    // height: 32px;
     background-color: $lightnessGrey;
   }
 
   &_header-style {
-    // height: 76px;
-    background-color: $lightColor;    
+    background-color: $lightColor;
+    border-top: 1px solid $BorderColor;
+    border-bottom: 1px solid $BorderColor;   
   }
 }
